@@ -1,37 +1,38 @@
-Flexbox.ninja
+FORK de Flexbox.ninja - Ajout de traduction et améliorations de l'accessibilité
 ===================================
 
+Sources :
 ![Flexbox.ninja Screenshot](https://user-images.githubusercontent.com/452767/51499076-26e9cf80-1dc9-11e9-82c4-e323508b55d4.jpg)
 
-[Flexbox.ninja](https://flexbox.ninja) is a website made and hosted by [Geoffrey Crofte](https://geoffrey.crofte.fr/en/) to help you better understand CSS Flexbox Layout Module.
+[Flexbox.ninja](https://flexbox.ninja) un site construit et hébergé par [Geoffrey Crofte](https://geoffrey.crofte.fr/en/) pour l'apprentissage des CSS.
 
-## How to contribute
+Traduit par [Stéphane Arrami](https://stephane-arrami.com) utilisé comme base pour un exercice d'apprentissage sur l'accessibilité Web.
 
-The fact that those demonstration folders are available on Github is because you are very welcome to contribute to show how you use Flexbox to solve CSS issue, advanced layout or even little CSS tricks.
+## Contributions apportées
 
-Pick one of the folder as example. All I need to run your demo is:
+Le but de ce Fork est de contribuer à résoudre des problèmes de CSS, de mise en page avancée ou même d'apporter des petites astuces CSS.
 
-* 1 `index.html` file containing the explanation of your code.
-* 1 `demo.html` file containing the entire independant demonstration of your code. Feel free to do whatever you want in that file.
-* 3 images named `[nice-name]-big.png` (1086×648), `[nice-name].png` (362×226) and `[nice-name].svg` (362×226). If you don't know how to “iconified” your demo, leave those empty, I'll work on it for you.
+Plusieurs dossiers sont utilisés pour démonstration
 
-Drop your name and your URL on your demo, I'll arrange the footer for you, because mentions are due.
+* 1 `index.html` fichier qui contient l'explication du code.
+* 1 `demo.html`  fichier qui contient la liste de l'ensemble des démonstrations personnelles.
+* 3 images nommées `[nice-name]-big.png` (1086×648), `[nice-name].png` (362×226) et `[nice-name].svg` (362×226).
 
-## Roadmap
+Déposez votre nom et votre URL sur votre démo.
 
-Some ideas are already on my to-do list. Among those:
+## Feuille de route
 
-* Vertical-Align Content
-* Flexible Sidebar
-* Stepper Input
-* Card Group
-* Flexible Gallery (Masonry)
-* Grid Gallery
-* Pricing Table
+Certaines idées sont déjà sur la liste de choses à faire. Parmi celles-ci :
 
-If you've got any idea or need, [contact me on Twitter](https://twitter.com/geoffreycrofte).
+* Contenu aligné verticalement
+* Barre latérale flexible
+* Stepper Input https://www.nngroup.com/articles/input-steppers/ - https://codepen.io/thedoer/pen/kkNAYK
+* Groupes de cartes
+* Galerie flexible (Masonry)
+* Galerie en grille
+* Tableau de prix
 
 ## Website Next Steps
 
-The Website is a [PWA](https://en.wikipedia.org/wiki/Progressive_web_applications). This step is finally done.
-The next step will be better handling the cache for offline usage. You can already visit the demos when you ar offline, if you visited those been online.
+Ce site est une Application Web Progressive [PWA](https://developer.mozilla.org/fr/docs/Web/Progressive_web_apps).
+La prochaine étape consistera à mieux gérer le cache pour une utilisation hors ligne. Vous pouvez déjà visiter les démos lorsque vous êtes hors ligne, si vous avez visité celles qui étaient en ligne.
