@@ -32,7 +32,7 @@ Certaines idées sont déjà sur la liste de choses à faire. Parmi celles-ci :
 * Galerie en grille
 * Tableau de prix
 
-## Website Next Steps
+## Etapes suivantes
 
 Ce site est une Application Web Progressive [PWA](https://developer.mozilla.org/fr/docs/Web/Progressive_web_apps).
 La prochaine étape consistera à mieux gérer le cache pour une utilisation hors ligne. Vous pouvez déjà visiter les démos lorsque vous êtes hors ligne, si vous avez visité celles qui étaient en ligne.
