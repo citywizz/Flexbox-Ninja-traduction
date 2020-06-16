@@ -67,16 +67,17 @@
 
 						
 					</h1>
-					<nav class="main-nav">
-						<ul>
+					<nav class="main-nav" role="navigation" aria-label="Navigation principale" aria-labelledby="labemenu">
+						<h2 id="labelemenu" class="sr-only">Navigation principale</h2>
+						<ul role="menu">
 							<li class="current">
-								<a href="/">Cas pratiques</a>
+								<a role="menuitem" href="/">Cas pratiques</a>
 							</li>
 							<li>
-								<a href="/how-to-learn-flexbox/">S'exercer aux Flexbox</a>
+								<a role="menuitem" href="/how-to-learn-flexbox/">S'exercer aux Flexbox</a>
 							</li>
 							<li>
-								<a href="/about/">A propos</a>
+								<a role="menuitem" href="/about/">A propos</a>
 							</li>
 						</ul>
 					</nav>

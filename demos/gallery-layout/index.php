@@ -59,6 +59,7 @@
             #galerie-01 figure img:hover{
                 opacity:.5;
                 transition: 0.8s;
+				cursor:pointer;
             }
 
             #galerie-01 figure img{
@@ -88,6 +89,7 @@
 
             #galerie-02 figure>img {
                 flex: 100%;
+				cursor:pointer;
                 }
             
             #galerie-02 figure img:hover{
