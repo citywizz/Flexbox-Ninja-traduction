@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
 	<head>
 		<title>Flexbox.ninja – Solved by Flexbox High Kick</title>
 		<meta name="description" content="Some real use cases solved with CSS Flexbox like the holy grail layout, columns with same heights, vertical and horizontal centering, etc.">
@@ -85,28 +85,28 @@
 		
 <section class="section page-content">
 
-	<h1 class="page-title">About Flexbox.ninja</h1>
+	<h1 class="page-title">A propos de Flexbox.ninja</h1>
 
 	<div class="main-content">
 		<div class="container">
 
 			<p>Flexbox is now a CSS module with a really great support (regarding <a href="https://caniuse.com/#feat=flexbox" target="_blank">CanIUse</a>). It's time for you to adopt this module and deal with it for real projects you're working on. Its power is big enough to make it essential in your front-end developement daily habits. It's a huge time saver to create efficient, flexible et strong layouts.</p>
 			
-			<h2>Why this site?</h2>
+			<h2>Pourquoi ce site?</h2>
 
-			<p>Flexbox.ninja is here to bring you help on the more common usage, and some tips when using Flexbox Layout on little component, but also aon big complicated layout.<br>
+			<p>Flexbox.ninja est là pour vous apporter de l'aide sur l'utilisation la plus courante, et quelques conseils sur l'utilisation de Flexbox Layout sur de petits composants, mais aussi sur une grande mise en page compliquée.<br>
 				Flexbox is one of the new Layout system you should know, so don't forget to have a look on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank">Grid Layout</a> too!</p>
 
-			<h2>Who's working on it?</h2>
+			<h2>Qui travaille sur ce projet ?</h2>
 
-			<p>I'm <a href="https://geoffrey.crofte.fr/en">Geoffrey Crofte, a UX/UI Designer</a> with affinity with accessibility, UX, front-end development, Ninjas and Kittens, living at Luxembourg City and working with the awesome <a href="https://www.maltem.com/" target="_blank">Maltem</a> Team.
+			<p>Je sui <a href="https://geoffrey.crofte.fr/en">Geoffrey Crofte, un UX/UI Designer</a> with affinity with accessibility, UX, front-end development, Ninjas and Kittens, living at Luxembourg City and working with the awesome <a href="https://www.maltem.com/" target="_blank">Maltem</a> Team.
 			<br>
-			I love sharing things —HTML, CSS, UX, UI, WordPress tips— on my <a href="https://www.creativejuiz.fr/blog/en/">blog</a> and here and there on the web.
+			J'aime partager des choses -HTML, CSS, UX, UI, conseils WordPress- sur mon <a href="https://www.creativejuiz.fr/blog/en/">blog</a> et ici et là sur le web.
 			</p>
 
-			<h2>How to contribute?</h2>
+			<h2>Qui peut contribuer ?</h2>
 			
-			<p>This website is composed with a simple system that allows you to contribute through this <a href="https://github.com/geoffreycrofte/flexbox.ninja" target="_blank">Github repository</a>. The explanations are available on the readme. If you want to report error on the website, use the <a href="https://github.com/geoffreycrofte/flexbox.ninja/issues" target="_blank">issues</a> for that :)</p>
+			<p>Ce site web est composé d'un système simple qui vous permet de contribuer à travers ce <a href="https://github.com/geoffreycrofte/flexbox.ninja" target="_blank">dépôt Github</a>. Les explications sont disponibles sur le readme. Si vous souhaitez signaler une erreur sur le site, utilisez les <a href="https://github.com/geoffreycrofte/flexbox.ninja/issues" target="_blank">issues</a> pour cela :)</p>
 
 			<h2>Special thanks</h2>
 
@@ -118,7 +118,7 @@
 
 			<p>You welcomed this initiative with sweet words, and I would like to thank you.</p>
 
-			<h3>Website selections</h3>
+			<h3>Sélection de sites</h3>
 
 			<ul>
 				<li><a href="https://tympanus.net/codrops/collective/collective-486/">Collective #486</a> - Codrops</li>
@@ -129,7 +129,7 @@
 				<li><a href="http://www.thefrontend.club/2019/01/27/frontend-weekiy-issue-45">Weekly Issue #45</a> – The Front-end Club</li>
 			</ul>
 
-			<h3>Tweets</h3>
+			<h3>Comptes sur Twitter</h3>
 			
 			<div class="twitter-wall">
 

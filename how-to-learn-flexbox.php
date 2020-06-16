@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html lang="fr" class="no-js">
 	<head>
 		<title>Flexbox.ninja – Solved by Flexbox High Kick</title>
 		<meta name="description" content="Some real use cases solved with CSS Flexbox like the holy grail layout, columns with same heights, vertical and horizontal centering, etc.">
@@ -85,17 +85,17 @@
 		
 <section class="section page-content">
 		
-	<h1 class="page-title">How To Learn Flexbox</h1>
+	<h1 class="page-title">Comment apprendre les Flexbox</h1>
 
 	<div class="main-content">
 		<div class="container">
-			<p><strong>Flexbox</strong> is quite <strong>not easy to learn</strong> through those demonstrations offered to you by <a href="https://flexbox.ninja/how-to-learn-flexbox/">Flexbox.ninja</a>. If you want to go further you will need to train yourself by <strong>reading books and tutorials</strong>, and also by building you own stuff and making mistake.</p>
+			<p><strong>Flexbox</strong> vous sera plus <strong>facile à assimiler</strong> grâce aux démonstrations qui vous sont proposées par <a href="https://flexbox.ninja/how-to-learn-flexbox/">Flexbox.ninja</a>. Si vous voulez aller plus loin, vous devrez vous entraîner en lisant des <strong>livres et des tutoriels</strong>, mais aussi en construisant vos propres projets et en faisant des erreurs.</p>
 
-			<p>The path to the true flexbox knowledge is near you, just take a look at those few resources.</p>
+			<p>Le chemin qui mène à la véritable connaissance des flexbox vous est accessible, il suffit de jeter un coup d'œil à ces quelques ressources.</p>
 
-			<h2>Books about Flexbox</h2>
+			<h2>Des livres sur les Flexbox</h2>
 
-			<p>Some books resources about flexbox.</p>
+			<p>Quelques ouvrages et ressources Flexbox.</p>
 
 			<ul class="list-books">
 				<li>
@@ -110,15 +110,15 @@
 					<a href="https://amzn.to/2Hdwoht" target="_blank">
 						<figure>
 							<img src="/assets/images/book-flexbox-goetter.jpg" srcset="/assets/images/book-flexbox-goetter.jpg 1x, /assets/images/book-flexbox-goetter@2x.jpg 2x" width="251" height="330" alt="">
-							<figcaption>[French] CSS3 Flexbox <span>by Raphaël Goetter</span></figcaption>
+							<figcaption>[Français] CSS3 Flexbox <span>by Raphaël Goetter</span></figcaption>
 						</figure>
 					</a>
 				</li>
 			</ul>
 
-			<h2>Tutorials about Flexbox</h2>
+			<h2>Des tutoriaux sur les Flexbox</h2>
 
-			<p>Some good tutorials and resources to learn Flexbox.</p>
+			<p>Quelques bons tutoriels et ressources pour maîtriser Flexbox.</p>
 
 			<ul>
 				<li><a href="https://flexboxfroggy.com/" target="_blank">Flexbox Froggy</a> – A game to learn Flexbox</li>

@@ -31,6 +31,14 @@
 			"dl" : true,
 			"direct" : true,
 			"dateCreated" : "11 may 2019"
+		},
+		"gallery-layout" : {
+			"title"	: "Gallery Layout",
+			"desc"	: "Display gallery with Flexbox.",
+			"color" : "alt",
+			"dl" : true,
+			"direct" : true,
+			"dateCreated" : "16 june 2020"
 		}
 	}
 }

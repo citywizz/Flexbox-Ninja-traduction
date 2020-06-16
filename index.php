@@ -70,13 +70,13 @@
 					<nav class="main-nav">
 						<ul>
 							<li class="current">
-								<a href="/">Case studies</a>
+								<a href="/">Cas pratiques</a>
 							</li>
 							<li>
-								<a href="/how-to-learn-flexbox/">Learn Flexbox</a>
+								<a href="/how-to-learn-flexbox/">S'exercer aux Flexbox</a>
 							</li>
 							<li>
-								<a href="/about/">About</a>
+								<a href="/about/">A propos</a>
 							</li>
 						</ul>
 					</nav>
@@ -86,24 +86,24 @@
 <section class="section homepage-content">
 		<div class="container">
 		
-			<h1 class="page-title">Flexbox Case Studies</h1>
+			<h1 class="page-title">Exemples concrets</h1>
 
-			<p class="page-catchphrase">Flexbox is nowaday one of the problem solvers you should master to help you in your working daily habits. Follow those little demonstrations and case studies to learn more about CSS Flexbox Layout, step by step, and become a Flexbox Ninja!</p>
+			<p class="page-catchphrase">Flexbox est aujourd'hui l'un des outils de résolution de problèmes que vous devez maîtriser pour vous aider dans vos habitudes de travail quotidiennes. Suivez ces petites démonstrations et études de cas pour en savoir plus sur le CSS Flexbox Layout, étape par étape, et devenez un Ninja de la Flexbox !</p>
 
 			<div class="case-studies">
 
 				<article id="buttons-with-icons" class="homepage-item item-buttons-with-icons">
 
 					<div class="hi-thumbnail">
-						<img src="/demos/buttons-with-icons/buttons-with-icons.png" srcset="/demos/buttons-with-icons/buttons-with-icons.svg 1x, /demos/buttons-with-icons/buttons-with-icons.svg 2x" width="362" height="216" alt="Buttons with Icons">
+						<img src="/demos/buttons-with-icons/buttons-with-icons.png" srcset="/demos/buttons-with-icons/buttons-with-icons.svg 1x, /demos/buttons-with-icons/buttons-with-icons.svg 2x" width="362" height="216" alt="Boutons avec icônes">
 					</div>
 
 					<h2 class="hi-title">
 						<a href="/demos/buttons-with-icons/">
-							Buttons with Icons						</a>
+							Boutons avec icônes						</a>
 					</h2>
 
-					<p class="hi-desc"><span>Align Buttons handling overflow by wrapping the content and including aligned icon and text. Flexbox can do it for you!</span></p>
+					<p class="hi-desc"><span>Les boutons d'alignement gèrent le débordement en enveloppant le contenu et en incluant l'icône et le texte alignés. Flexbox peut le faire pour vous !</span></p>
 
 					<p class="hi-link">
 						<a class="button" href="/demos/buttons-with-icons/" title="See the flexbox demonstration for &quot;Buttons with Icons&quot;">Flexbox demo</a>
@@ -120,10 +120,10 @@
 
 					<h2 class="hi-title">
 						<a href="/demos/website-header/">
-							Website Header						</a>
+							Entête de Site Web						</a>
 					</h2>
 
-					<p class="hi-desc"><span>A logo to the left, a navigation to the right, everything centered in small screen, no matters the number of nav items. Easy with Flexbox!</span></p>
+					<p class="hi-desc"><span>Un logo à gauche, une navigation à droite, tout centré en petit écran, peu importe le nombre d'éléments de navigation. Facile avec Flexbox !</span></p>
 
 					<p class="hi-link">
 						<a class="button" href="/demos/website-header/" title="See the flexbox demonstration for &quot;Website Header&quot;">Flexbox demo</a>
@@ -140,10 +140,10 @@
 
 					<h2 class="hi-title">
 						<a href="/demos/same-height-columns/">
-							Same Columns Height						</a>
+							Colonnes de la même hauteur					</a>
 					</h2>
 
-					<p class="hi-desc"><span>Your designer made an awesome work with Lorem Ipsum, but in real life texts change. Let's keep a good harmony with Flexbox!</span></p>
+					<p class="hi-desc"><span>Votre designer a fait un travail impressionnant avec Lorem Ipsum, mais dans la vie réelle, les textes changent. Gardons une bonne harmonie avec Flexbox !</span></p>
 
 					<p class="hi-link">
 						<a class="button" href="/demos/same-height-columns/" title="See the flexbox demonstration for &quot;Same Columns Height&quot;">Flexbox demo</a>
@@ -160,10 +160,10 @@
 
 					<h2 class="hi-title">
 						<a href="/demos/holy-grail-layout/">
-							Holy Grail Layout						</a>
+						La disposition du saint graal						</a>
 					</h2>
 
-					<p class="hi-desc"><span>One header, one content, one footer and two cols. Get rid of the hard thing with Flexbox!</span></p>
+					<p class="hi-desc"><span>Un en-tête, un contenu, un pied de page et deux cols. Débarrassez-vous du plus difficile avec Flexbox !</span></p>
 
 					<p class="hi-link">
 						<a class="button" href="/demos/holy-grail-layout/" title="See the flexbox demonstration for &quot;Holy Grail Layout&quot;">Flexbox demo</a>
@@ -178,15 +178,33 @@
 					</div>
 
 					<h2 class="hi-title">
-						Other Demos Coming Soon
+					 D'autres démonstrations pour bientôt.
 					</h2>
 
-					<p class="hi-desc"><span>Those first demos are just the beginning. Other are coming, and if you need help one some (Flexbox) layout issues. Ask me on Twitter.</span></p>
+					<p class="hi-desc"><span>Ces premières démonstrations ne sont qu'un début. D'autres sont à venir, et si vous avez besoin d'aide, quelques problèmes de mise en page (Flexbox). Demandez-moi sur Twitter.</span></p>
 
 					<p class="hi-link">
-						<a class="button button-secondary" href="https://twitter.com/geoffreycrofte/" title="Ask for Flexbox help on Twitter">Ask me</a>
-						<a class="button button-secondary button-ghost" href="https://github.com/geoffreycrofte/flexbox.ninja#roadmap">See the roadmap</a>
+						<a class="button button-secondary" href="https://twitter.com/geoffreycrofte/" title="Ask for Flexbox help on Twitter">Je réponds à vos questions</a>
+						<a class="button button-secondary button-ghost" href="https://github.com/geoffreycrofte/flexbox.ninja#roadmap">Voir la feuille de route</a>
 					</p>
+
+				</article>
+
+				<article id="gallery-masonry" class="homepage-item item-teasing">
+
+				<div class="hi-thumbnail">
+					<img src="/assets/images/teasing.png" srcset="/assets/images/teasing.svg 1x, /assets/images/teasing.svg 2x" width="362" height="216" alt="">
+				</div>
+
+				<h2 class="hi-title">
+				Galerie Masonry avec Flexbox
+				</h2>
+
+				<p class="hi-desc"><span>Un effet Masonry simplement grâce à Flexbox.</span></p>
+
+				<p class="hi-link">
+						<a class="button" href="/demos/gallery-layout/" title="Démonstration de la Galerie">Démonstration</a>
+				</p>
 
 				</article>
 			</div>
@@ -195,8 +213,8 @@
 
 	<aside id="share-the-love" role="complementary" class="section-primary text-center share-the-love">
 	<div class="container">
-		<h2 class="stl-title">You like this project?</h2>
-		<p class="stl-subtitle">Spread the word by sharing it.</p>
+		<h2 class="stl-title">Vous aimez ce projet?</h2>
+		<p class="stl-subtitle">Passez-vous le mot en le partageant.</p>
 		<ul class="social-networks stl-social">
 						<li>
 				<a target="_blank" href="https://twitter.com/intent/tweet?source=webclient&amp;original_referer=https://flexbox.ninja/&amp;text=Solved+by+Flexbox.+Simple+CSS+solutions+using+Flexbox+Layout.&amp;url=https://flexbox.ninja/&amp;related=geoffreycrofte&amp;via=geoffreycrofte">
@@ -222,8 +240,8 @@
 
 			<footer class="main-footer" role="contentinfo">
 				<div class="container">
-					<p>Crafted by hands with love by <a href="https://twitter.com/geoffreycrofte/">Geoffrey Crofte</a><br>
-						Cute Ninja illustration by <a href="https://stephaniewalter.design/">Stéphanie Walter</a></p>
+					<p>Fabriqué à la main et avec amour par <a href="https://twitter.com/geoffreycrofte/">Geoffrey Crofte</a><br>
+					Jolie illustration de Ninja par <a href="https://stephaniewalter.design/">Stéphanie Walter</a></p>
 				</div>
 			</footer>
 		</div>
