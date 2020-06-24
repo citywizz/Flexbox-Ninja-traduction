@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr" class="no-js">
 	<head>
-		<title>Disposition Galerie</title>
+		<title>Formulaire de contact</title>
 		<meta name="description" content="Some real use cases solved with CSS Flexbox like the holy grail layout, columns with same heights, vertical and horizontal centering, etc.">
 
 		<link rel="manifest" href="/manifest.json">
@@ -50,103 +50,48 @@
 
         <style>
 
-            /* Galerie de présentation effet Masonry */
+			input, textarea, select, button {
+				padding:0.2em;
+				-webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+				-moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+				box-sizing: border-box;
+			}
             
-            #galerie-01 figure{   
-                columns: 1;
-                padding:0.2em;   
-            }
+			.flexForm{
+				display:flex;
+				justify-content:center;
+				flex-direction:column;
+				background-color: #FFF;
+				padding:1em;
+			}
 
-            #galerie-01 figure img:hover{
-                opacity:.5;
-                transition: 0.8s;
+			[type="text"] {
+     			 margin: 0 0 0 20px;
+    		}
+
+			.flexForm > *{
+				border: 0;
+				padding: 1em;
+				line-height:50px;
+				font-size: 1.2em;
+			}
+
+			.flexForm > .col {
+				display:flex;
+			}
+			.flexForm > .col > * {
+				padding:1em;
+			}
+
+			input, button{
 				cursor:pointer;
-            }
+				padding:1em;
+			}
 
-            #galerie-01 figure img{
-                width: 100%;
-                break-inside: avoid-column;/*interdit toute rupture de colonne au sein de la boîte */
-                margin-top:1em;
-            }
-
-            #galerie-01 .gallery-item{
-                padding: 0 1em 0 1em;
-            }
-
-
-            #galerie-01 figure[role="presentation"]{
-                background-color:#f34a4e;
-            }
-
-
-
-            /* Galerie de présentation Flex + vignettes hauteurs similaires */
-
-            #galerie-02 figure{
-                display: flex;
-                flex-wrap: wrap;
-                overflow: hidden;
-            }
-
-            #galerie-02 figure>img {
-                flex: 100%;
-				cursor:pointer;
-                }
-            
-            #galerie-02 figure img:hover{
-                filter:opacity(.33);
-                filter:sepia(.99);
-                /*filter:blur(5px);*/
-                transition: 0.8s;   
-            }
-
-            #galerie-02 figure img:nth-child(2n+1){
-            }
-
-
-            #galerie-02 figure[role="presentation"]{
-                background-color:#f34a4e;
-            }
-
-            #galerie-02 figure img{
-                width: 100%;
-                margin-top:1em;
-            }
-
-            #galerie-02 .gallery-item{
-                padding: 0 1em 0 1em;
-            }
-
-            #galerie-02 figure img:nth-child(1){
-                order:3;
-            }
-            #galerie-02 figure img:nth-child(2){
-                order:1;
-            }
-            #galerie-02 figure img:nth-child(3){
-                order:2;
-            }
-            #galerie-02 figure img:nth-child(4){
-                order:4;
-            }
-            #galerie-02 figure img:nth-child(5){
-                order:6;
-            }
-            #galerie-02 figure img:nth-child(6){
-                order:5;
-            }
 
             @media all and (min-width: 600px){
                 
-                #galerie-01 figure{   
-                    columns: 2;
-                    column-gap: 0.2em;
-                    padding:0.2em;   
-                }
-                
-                #galerie-02 figure>img {
-                flex: 1 0 50%;
-                }
+
 
             }
 
@@ -163,7 +108,7 @@
 				
 				<div class="container">
 					
-					<h1 class="logo-wrapper">
+					<div class="logo-wrapper">
 						
 						
 							<img class="logo"
@@ -174,9 +119,9 @@
 								alt="Flexbox.ninja">
 
 						
-					</h1>
+					</div>
 					<nav class="main-nav" role="navigation" aria-label="Navigation principale" aria-labelledby="labemenu">
-						<h2 id="labelemenu" class="sr-only">Navigation principale</h2>
+						<span id="labelemenu" class="sr-only">Navigation principale</span>
 						<ul role="menu">
 							<li class="current">
 								<a role="menuitem" href="/">Cas pratiques</a>
@@ -195,7 +140,7 @@
 <section class="section homepage-content">
 		<div class="container">
 		
-			<h1 class="page-title">Galerie avec Flexbox</h1>
+			<h1 class="page-title">Formulaire de contact</h1>
 
             <div class="main-content">
 			
@@ -203,40 +148,30 @@
             <div class="container">
 
 
-                <section id="galerie-01">
-                <div id="descriptif">
-                <h2> Galerie Masonry </h2>
-                <p id="descriptif-court">
-                    Une Galerie Flexbox de type Masonry avec columns et break-inside avoid-column qui interdit toute rupture de colonne au sein de la boîte.
-                <p>
-                </div>
+			<form id="contactForm" role="form" class="flexForm">
+				<div class="col">
+				<div>
+					<label id="lblname" for="lastname">* Nom:</label>
+					<input tabindex="1" type="text" placeholder="Votre nom" value="" id="lastname" aria-labelledby="contactForm lblname" aria-required="true"/>
+				</div>
+				<div>
+					<label for="firstname">Prénom:</label>
+					<input type="text" placeholder="Votre prénom" value="" id="firstname" aria-required="true"/>
+				</div>
+				</div>
 
-                <figure role="presentation" aria-describedby="descriptif" aria-labelledby="titre-presentation">
-                    <img src="/assets/images/portrait-01.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item" longdesc="#descriptif">
-                    <img src="/assets/images/portrait-02.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-03.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-04.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-05.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-06.jpeg" aria-describedby="descriptif-court" alt="Description de l'image" class="gallery-item">
-                    <figcaption id="titre-presentation">Description de la galerie de présentation</figcaption>
-                </figure>
-                
-
-                </section>
-
-                <section id="galerie-02">
-                <h2> Galerie Simple Flexbox </h2>
-
-                <figure role="presentation">
-                    <img src="/assets/images/portrait-01.jpeg" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-02.jpeg" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-03.jpeg" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-04.jpeg" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-05.jpeg" alt="Description de l'image" class="gallery-item">
-                    <img src="/assets/images/portrait-06.jpeg" alt="Description de l'image" class="gallery-item">
-                </figure>
-
-                </section>
+				<div class="col">
+				<div>
+					<label for="phone">Téléphone:</label>
+					<input type="text" placeholder="Précisez votre téléphone" value="" id="phone" aria-required="false"/>
+				</div>
+				<div>
+					<label for="email">* E-mail:</label>
+					<input type="text" placeholder="Votre email" value="" id="email" aria-required="true"/>
+				</div>
+				</div>
+				<button type="submit" form="contactForm" value="envoyer">Envoyer</button>
+			</form>
 
 
             </div><!-- .container -->
@@ -251,19 +186,19 @@
 		<p class="stl-subtitle">Passez-vous le mot en le partageant.</p>
 		<ul class="social-networks stl-social">
 						<li>
-				<a target="_blank" href="https://twitter.com/intent/tweet?source=webclient&amp;original_referer=https://flexbox.ninja/&amp;text=Solved+by+Flexbox.+Simple+CSS+solutions+using+Flexbox+Layout.&amp;url=https://flexbox.ninja/&amp;related=geoffreycrofte&amp;via=geoffreycrofte">
+				<a href="https://twitter.com/intent/tweet?source=webclient&amp;original_referer=https://flexbox.ninja/&amp;text=Solved+by+Flexbox.+Simple+CSS+solutions+using+Flexbox+Layout.&amp;url=https://flexbox.ninja/&amp;related=geoffreycrofte&amp;via=geoffreycrofte">
 					<img src="/assets/images/twitter.svg" width="35" height="35" alt="">
 					<span class="sr-only">Twitter</span>
 				</a>
 			</li>
 			<li>
-				<a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=Flexbox.ninja&amp;title=Solved+by+Flexbox.+Simple+CSS+solutions+using+Flexbox+Layout.&amp;url=https://flexbox.ninja/">
+				<a href="https://www.linkedin.com/shareArticle?mini=true&amp;ro=true&amp;trk=Flexbox.ninja&amp;title=Solved+by+Flexbox.+Simple+CSS+solutions+using+Flexbox+Layout.&amp;url=https://flexbox.ninja/">
 					<img src="/assets/images/linkedin.svg" width="30" height="30" alt="">
 					<span class="sr-only">LinkedIn</span>
 				</a>
 			</li>
 			<li>
-				<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://flexbox.ninja/">
+				<a href="https://www.facebook.com/sharer/sharer.php?u=https://flexbox.ninja/">
 					<img src="/assets/images/facebook.svg" width="30" height="30" alt="">
 					<span class="sr-only">Facebook</span>
 				</a>
@@ -330,6 +265,9 @@
 				});
 			}
 		</script>
+
+
+
 
 <!-- Bootstrap + Jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
